@@ -7,6 +7,8 @@ call pathogen#helptags()
 :set number
 :syntax on
 
+colorscheme jellybeans
+
 " .pde files to be taken as C++.
 autocmd BufNewFile,BufReadPost *.pde set filetype=cpp
 
