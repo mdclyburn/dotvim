@@ -6,6 +6,8 @@ call pathogen#helptags()
 :set shiftwidth=4
 :set number
 :syntax on
+:set splitbelow
+:set splitright
 
 " Favorite schemes:
 " jellybeans
