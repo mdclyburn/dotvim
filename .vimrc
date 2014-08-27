@@ -6,6 +6,7 @@ call vundle#rc()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'nanotech/jellybeans.vim'
 
 filetype plugin indent on
 
@@ -16,6 +17,8 @@ filetype plugin indent on
 :syntax on
 :set splitbelow
 :set splitright
+
+colorscheme jellybeans
 
 " .pde files to be taken as C++.
 autocmd BufNewFile,BufReadPost *.pde set filetype=cpp
