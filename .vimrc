@@ -6,7 +6,7 @@ call vundle#rc()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'nanotech/jellybeans.vim'
+Plugin 'flazz/vim-colorschemes'
 
 filetype plugin indent on
 
