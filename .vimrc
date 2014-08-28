@@ -26,3 +26,7 @@ colorscheme jellybeans
 " .pde files to be taken as C++.
 autocmd BufNewFile,BufReadPost *.pde set filetype=cpp
 
+" Get Alternate working for Objective-C
+autocmd FileType objc let g:alternateExtensions_h = "m"
+autocmd FileType objc let g:alternateExtensions_m = "h"
+
