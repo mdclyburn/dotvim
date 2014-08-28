@@ -6,7 +6,10 @@ call vundle#rc()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'Townk/vim-autoclose'
+Plugin 'vim-scripts/a.vim'
 
 filetype plugin indent on
 
