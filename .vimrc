@@ -21,6 +21,7 @@ filetype plugin indent on
 :set splitbelow
 :set splitright
 
+:set t_Co=256
 colorscheme jellybeans
 
 " .pde files to be taken as C++.
