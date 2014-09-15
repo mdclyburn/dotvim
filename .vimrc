@@ -22,7 +22,7 @@ filetype plugin indent on
 :set splitright
 
 :set t_Co=256
-colorscheme jellybeans
+colorscheme lucius
 
 " .pde files to be taken as C++.
 autocmd BufNewFile,BufReadPost *.pde set filetype=cpp
