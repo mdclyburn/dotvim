@@ -23,7 +23,13 @@ filetype plugin indent on
 
 :set t_Co=256
 :set background=dark
-colorscheme lucius
+
+" Favorites Color Schemes
+" c64:			Commodore 64
+" jellybeans: 	differentiated colors on a dark background
+" lucius:		blue & green colors on a dark background
+" 
+colorscheme c64
 
 " .pde files to be taken as C++.
 autocmd BufNewFile,BufReadPost *.pde set filetype=cpp
