@@ -22,6 +22,7 @@ filetype plugin indent on
 :set splitright
 
 :set t_Co=256
+:set background=dark
 colorscheme lucius
 
 " .pde files to be taken as C++.
