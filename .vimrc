@@ -10,6 +10,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'Townk/vim-autoclose'
 Plugin 'vim-scripts/a.vim'
+Plugin 'vim-scripts/C64.vim'
 
 filetype plugin indent on
 
@@ -29,7 +30,7 @@ filetype plugin indent on
 " jellybeans: 	differentiated colors on a dark background
 " lucius:		blue & green colors on a dark background
 " 
-colorscheme c64
+colorscheme C64
 
 " .pde files to be taken as C++.
 autocmd BufNewFile,BufReadPost *.pde set filetype=cpp
