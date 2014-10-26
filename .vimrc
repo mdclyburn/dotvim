@@ -30,7 +30,7 @@ filetype plugin indent on
 " jellybeans: 	differentiated colors on a dark background
 " lucius:		blue & green colors on a dark background
 " 
-colorscheme C64
+colorscheme jellybeans
 
 " .pde files to be taken as C++.
 autocmd BufNewFile,BufReadPost *.pde set filetype=cpp
