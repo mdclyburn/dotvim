@@ -11,6 +11,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'Townk/vim-autoclose'
 Plugin 'vim-scripts/a.vim'
 Plugin 'vim-scripts/C64.vim'
+Plugin 'ntpeters/vim-better-whitespace'
 
 filetype plugin indent on
 
