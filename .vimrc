@@ -12,6 +12,7 @@ Plugin 'Townk/vim-autoclose'
 Plugin 'vim-scripts/a.vim'
 Plugin 'vim-scripts/C64.vim'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'junegunn/seoul256.vim'
 
 filetype plugin indent on
 
