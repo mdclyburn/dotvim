@@ -16,6 +16,7 @@ Plugin 'junegunn/seoul256.vim'
 
 filetype plugin indent on
 
+:set bs=2
 :set smartindent
 :set tabstop=4
 :set shiftwidth=4
