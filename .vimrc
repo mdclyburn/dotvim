@@ -8,11 +8,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'Townk/vim-autoclose'
+"Plugin 'Townk/vim-autoclose'
 Plugin 'vim-scripts/a.vim'
 Plugin 'vim-scripts/C64.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'junegunn/seoul256.vim'
+Plugin 'tfnico/vim-gradle'
 
 filetype plugin indent on
 
