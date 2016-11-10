@@ -4,36 +4,38 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
-Plugin 'gmarik/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'flazz/vim-colorschemes'
-Plugin 'vim-scripts/a.vim'
-Plugin 'vim-scripts/C64.vim'
-Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'junegunn/seoul256.vim'
-Plugin 'tfnico/vim-gradle'
-Plugin 'rust-lang/rust.vim'
 Plugin 'bling/vim-airline'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'junegunn/seoul256.vim'
+Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'rust-lang/rust.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tfnico/vim-gradle'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-scripts/C64.vim'
+Plugin 'vim-scripts/a.vim'
 
 filetype plugin indent on
 
-:set bs=2
-:set smartindent
-:set tabstop=4
-:set shiftwidth=4
-:set expandtab
-:set number
-:syntax on
-:set splitbelow
-:set splitright
-:set autochdir
-:set laststatus=2
+set ai
+set bs=2
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set number
+syntax on
+set splitbelow
+set splitright
+set autochdir
+set laststatus=2
 
-:set t_Co=256
-:set background=dark
+set t_Co=256
+set background=dark
 
-:set guioptions-=r
-:set guifont=Inconsolata\ for\ Powerline:h14
+set guioptions-=r
+set guifont=Inconsolata\ for\ Powerline:h14
 
 " Favorites Color Schemes
 " c64:			Commodore 64
